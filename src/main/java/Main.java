@@ -19,7 +19,7 @@ public class Bagrot {
 	}
 	public static void main(String[] args) {
 		Doctor a = new Doctor ("Ron","Nose",0);
-		Doctor b = new Doctor ("Gal","eye",0);
+		Doctor b = new Doctor ("Gal","eyes",0);
 		Doctor [] arr = {a,b};
 		q2B(arr);
 		for (int i = 0; i < arr.length; i++) {
