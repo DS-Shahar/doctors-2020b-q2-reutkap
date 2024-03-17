@@ -4,12 +4,12 @@ public class Bagrot {
 	public static void q2B (Doctor [] doctors) { 
 		int count = 0; double sum = 0;
 		for (int i = 0; i < doctors.length; i++) {
-			System.out.println("enter rate for "+doctors[i].getName());
+			System.out.println("Enter rate for "+doctors[i].getName());
 			double r = input.nextDouble();
 			while (r != -1) {
 				sum += r;
 				count++;
-				System.out.println("enter rate for "+doctors[i].getName());
+				System.out.println("Enter rate for "+doctors[i].getName());
 				r = input.nextDouble();
 			}
 			doctors[i].setRate(sum/count);
